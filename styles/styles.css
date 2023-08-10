@@ -51,12 +51,49 @@ footer {
     font-size: 2em;
     height: 3em;
     background-color: gray;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
 
 footer p {
     margin: 0;
     padding: .9em 0;
 }
+
+/* Home Page Styles*/
+#tagline {
+    text-align: center;
+}
+
+#featured {
+    padding-top: 1em;
+}
+
+#projects {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.project {
+    width: 35em;
+    padding: 0 5em;
+}
+
+.project-img {
+    width: 550px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.project-body {
+    font-size: 20px;
+}
+
 
 /* About Page Styles */
 #about {
@@ -74,10 +111,28 @@ div.about {
     width: 20em;
 }
 
-footer.about {
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
+#about-h2 {
+    text-align: left;
+}
+
+#headshot {
+    width: 300px;
+    height: 450px;
+}
+
+/* Demo Reel Styles */
+h2 {
+    text-align: center;
+    font-size: 3em;
+    width: 10em;
+    height: 1em;
+    margin: .5em auto;
+}
+
+#SD-Reel {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 /* Contact Page Styles*/
@@ -89,10 +144,5 @@ h1.contact {
 
 h2.contact { 
     text-align: center;
-}
-
-footer.contact {
-    position: fixed;
-    bottom: 0%;
     width: 100%;
 }
