@@ -1,0 +1,98 @@
+/* Generic Styles */
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+}
+
+nav {
+    background-color: gray;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 -0.15em;
+    padding: 0.4em 0 0.5em;
+    width: 5.5em;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.4em 1.2em 0.5em;
+}
+
+nav p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 2em;
+    height: 3em;
+    background-color: gray;
+}
+
+footer p {
+    margin: 0;
+    padding: .9em 0;
+}
+
+/* About Page Styles */
+#about {
+    display: inline-flex;
+    margin: 0 auto;
+    align-self: center;
+}
+
+main.about {
+    display: flex;
+}
+
+div.about {
+    padding: 3em 0;
+    width: 20em;
+}
+
+footer.about {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+/* Contact Page Styles*/
+
+h1.contact {
+    padding-top: 3em;
+    text-align: center;
+}
+
+h2.contact { 
+    text-align: center;
+}
+
+footer.contact {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
